@@ -66,10 +66,10 @@ The frontend development server will start on http://localhost:5173 by default.
 
 # API Endpoints
 The backend provides the following API endpoints:
-
 GET /api/news?type={type}&page={page}&limit={limit} - Get news items by type.
-type: newstories, topstories, beststories, askstories, showstories, jobstories
-page: Page number (starts at 1)
-limit: Number of items per page
+
+1. type: newstories, topstories, beststories, askstories, showstories, jobstories.
+2. page: Page number (starts at 1).
+3. limit: Number of items per page.
     
 GET /api/news/{id} - Get a specific news item with comments
