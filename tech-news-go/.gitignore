@@ -1,0 +1,28 @@
+
+---
+### 🛑 `.gitignore`
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output
+bin/
+build/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Cache
+*.log
+*.out
+
+# Dependency directories
+vendor/
+
+# Env
+.env
